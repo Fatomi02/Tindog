@@ -1,0 +1,157 @@
+/* ID Selector */
+#title{
+    background-color: #ff4c68;
+    font-family: 'Montserrat-black', sans-serif;
+}
+#features{
+    padding: 5% 10%;
+    text-align: center;
+    position: relative;
+    background-color: #fff;
+    z-index: 1;
+}
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+#press{
+    background-color: #ef8172;
+    text-align: center;
+}
+#pricing{
+    padding: 7% 10%;
+    text-align: center;
+}
+#cta{
+    text-align: center;
+    background-color: #ff4c68;
+    padding: 7% 15% 5%;
+}
+#footer{
+    padding: 2% auto 3px;
+    margin-top: 50px;
+    text-align: center;
+}
+/* Class selector */
+.nav{
+    background-color: #f85671;
+    padding-left: 10%;
+    padding-right: 50px;
+}
+.container-fluid{
+    padding: 0% 10% 7%;
+}
+.word{
+    padding-top: 80px;
+}
+
+.title-head{
+    color: white;
+    font-family: 'Montserrat-black', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+    margin-bottom: 80px;
+}
+.Tindog{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+.nav-item{
+    padding-right: 30px;
+}
+.iphone{
+    padding-top: 30px;
+    width: 340px;
+    transform: rotate(25deg);
+    padding-left: 5%;
+    padding-bottom: 10%;
+    position: abSolute;
+
+}
+
+.download{
+    margin-right: 10px;
+}
+/* Tag Selector */
+.btn{
+    margin-bottom: 20px;
+}
+
+.icon{
+    margin-bottom: 20px;
+    color: #ef8172;
+
+}
+.icon:hover{
+    color: #ff4c68;
+}
+.features-p{
+    color: #8f8f8f;
+}
+.features-head{
+    font-family: "Montserrat";
+    font-weight: 400;
+}
+.testimonial-image{
+    width: 15%;
+    border-radius: 100%;
+    margin: 3%;
+}
+.press-img{
+    width: 18%;
+    padding-left: 40px;
+}
+.testimonial-text{
+    font-family: "Montserrat";
+    font-weight: 900;
+    font-size: 3.1rem;
+    line-height: 1.5;
+}
+.carousel-item{
+    padding: 7% 10%;
+}
+.pricing-column{
+    padding: 30px;
+}
+.pricing-heading{
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 1.5;
+}
+.pricing-p{
+    color: #8f8f8f;
+}
+
+.card-header{
+    background-color: #f85671;
+}
+.find{
+    text-align: center;
+    color: white;
+    font-family: 'Montserrat-black', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+    margin-bottom: 80px;
+}
+.footer-icon{
+    padding-right: 3%;
+    padding-left: 3%;
+}
+.last{
+   margin-bottom: 10px;
+}
+@media (max-width: 1029px) {
+    .iphone{
+        transform: rotate(0);
+        position: static;
+        padding-right: 50px;
+    }
+    .word{
+        text-align: center;
+    }
+}
